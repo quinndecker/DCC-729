@@ -1,0 +1,1 @@
+web: gunicorn DCC_Site_2.wsgi
