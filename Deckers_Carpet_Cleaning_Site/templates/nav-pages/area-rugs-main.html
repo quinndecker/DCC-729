@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block meta %}
+
+<meta name="description" content="" />
+<title>Area Rug Cleaning</title>
+{% endblock meta %} {% load static %} {% block content %}
+<div class="space"><br /><br /><br /></div>
+<div
+  class="service-page-banner"
+  style="
+    background-image: url('/static/img/area-rug-banner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  "
+>
+  <h1>Area Rug Cleaning Services</h1>
+  <div class="breaker"></div>
+  <div class="col col-servpagenav">
+    <ul class="service-page-services">
+      <li>
+        <a href="/area-rug-cleaning/">
+          <h2>Area Rug Cleaning</h2>
+        </a>
+      </li>
+      <!--<li> <a href="/area-rug-repair/">
+                    <h2>Area Rug Repair</h2>
+                </a> </li>-->
+    </ul>
+  </div>
+  <div class="schedulebtn">
+    <a class="button btn-lg" href="/book-now/"
+      >Schedule Your Free Consultation Today!</a
+    >
+  </div>
+</div>
+
+{% endblock content %}

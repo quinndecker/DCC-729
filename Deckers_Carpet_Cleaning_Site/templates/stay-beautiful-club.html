@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block meta %}
+
+<meta name="description" content="Decker’s Carpet Cleaning...">
+<title>The Stay Beautiful Club</title>
+{% endblock meta %}
+{% load static %}
+{% block content %}
+
+<div class="space">
+    <br><br><br>
+</div>
+
+<div class="content-wrap">
+    <h1>The Stay Beautiful Club</h1>
+    <h2 class="subheader">Never Worry about Dirty Carpet Again!</h2>
+    <div class="body-columns">
+        <div class="col col-text-2">
+            <p>Don’t you wish your carpet could last longer, smell better, and always look clean? Our Stay Beautiful
+                Club offers year round protection so that you never have to worry about your carpet looking bad,
+                smelling bad, or wearing prematurely. Our Stay Beautiful Club also offers discounted cleaning,
+                pre-arranged appointments, easy terms, and delivers incredibly beautiful carpets.</p>
+        </div>
+        <div class="col col-media-2">
+            <img src="{% static 'img/stay-beautiful.jpg' %}" alt="Sure, it's clean but will it Stay Beautiful?"
+                class="contentmedia">
+                <a class="button btn-lg" href="/book-now/">Schedule Your Free
+                    Consultation
+                    Today!</a>
+        </div>
+    </div>
+    <h2 class="subheader">How It Works</h2>
+    <p>You have your carpets cleaned by us at your initial cleaning. Then, in 6 months we will come back and touch up your traffic lanes and open areas. Then, in another 6 months (at the One Year mark) we come back and, moving your light to medium furniture, provide a full regular cleaning just like we do at your initial cleaning. We also include one Emergency Spot Cleaning per year to use as needed.</p> <br>
+    <p>You pay for your initial cleaning at the time of service. Then, you invest 10% of the cleaning price each month as your monthly Stay Beautiful Club payment. As you can see, your 6 month Touch Up cleaning and Emergency Spot Cleaning are nearly free! We charge your credit card the low monthly fee and you get the peace of mind of knowing your carpet is being carefully and perpetually maintained.</p>
+    <br> 
+    <h2 class="subheader">Member Benefits</h2>
+    <ul class="memberbenefits">
+        <li><h3>Greatly Improved Appearance</h3> - Let’s face it, most of us put off unpleasant tasks, like having carpets cleaned, as long as possible. We find that our customers appreciate the advance scheduling and having the fear and unknown removed from the process. Having a technician you like, from a company you trust, maintain your carpet on a regular basis eliminates the need to go through the selection and bidding process every time. It also ensures your carpet is maintained to present its best appearance at all times… or in other words… your carpet and home will Stay Beautiful!</li><br>
+        <li><h3>Carpets Last Longer</h3> - Carpets are a filter in your home. They filter dust and debris from the air and collect it in the carpet fibers. This is great for your breathing, but bad for your carpet. All of those tiny dust and dirt particles become deeply embedded in your carpet and act like sand paper to your carpet fibers. This cuts into the fiber and breaks it down over time. Dirt and debris, as it scratches and abrades the fibers, causes the light to refract away from your eyes, rather than reflect evenly. This causes the dark wear patterns in your traffic lanes and greatly reduces the number of years of life in your carpet. With Stay Beautiful, fiber-cutting grit is removed on a regular basis so your carpets will last longer and look better.</li><br>
+        <li><h3>Pre-Scheduled Maintenance</h3> - In this day and age, every household seems pretty busy. Maintaining your carpet is probably one of the last things on your priority list until it becomes an issue. By joining our Stay Beautiful Club we can schedule it 6 months and one year in advance, or we contact you to arrange the best time for cleaning as the dates approach. Our goal is to make your life easier and your carpet maintenance program as easy as possible.</li><br> 
+        <li><h3>Great Value</h3> - By joining our Stay Beautiful Club, you not only have great looking carpets, but save money also. We provide one 6 month touch up cleaning as well as your regular annual cleaning. By keeping your carpets clean and maintaining them regularly, they will last up to 50% longer. That’s like money in the bank!</li>
+    </ul>
+
+</div>
+
+{% endblock content %}

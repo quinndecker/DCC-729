@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block meta %}
+<meta
+  name="description"
+  content="Decker's Carpet Cleaning Blog - All you need to know about floor care and more"
+/>
+<title>Deckers Carpet Cleaning - Blog</title>
+{% endblock meta %} {% load static %} {% block content %}
+<div class="space"><br /><br /><br /></div>
+
+<div class="content-wrap">
+  <h1>Decker's Carpet Cleaning Blog</h1>
+  <div class="breaker"></div>
+  <div class="posts">
+    {% for post in post_list %}
+    <div class="blog-post-list">
+      <!--<div class="cover-image"><img src="{{ post.thumb.url }}" alt="{{ post.cover_image_alt }}"></div>-->
+      <a href="{% url 'post_detail' post.slug  %}">
+        <h2 class="blog-titles">{{ post.title }}</h2>
+      </a>
+      <p class="blog-preview text-black-50 h6">
+        {{ post.author }} | {{ post.created_on}}
+      </p>
+      <p class="card-text">{{post.content|slice:":250"|striptags }}...</p>
+      <a href="{% url 'post_detail' post.slug  %}" class="read-more"
+        >Read More &rarr;</a
+      >
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock content %}

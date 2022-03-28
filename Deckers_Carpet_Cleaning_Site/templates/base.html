@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Remove the noindex robot after testing-->
+    <meta name="robots" content="noindex">
+    {% block meta %}
+    {% endblock meta %}
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'img/site.webmanifest' %}">
+</head>
+{% load static %}
+
+<body>
+    <div class="wrapper">
+        <header id="myHeader">
+            <div class="tophead">
+                <a href="/"> <img class="logo" src="{% static 'img/Deckers-Carpet-Cleaning.png' %}"
+                        alt="Deckers Carpet Cleaning Logo"></a>
+                <a class="mobile-logo" href="/"> <img class="mobile-logo"
+                        src="{% static 'img/Deckers-Carpet-Cleaning.png' %}" alt="Deckers-Carpet-Cleaning-Logo"></a>
+                <div class="col col-hd">
+                    <a href="tel:2819730281">
+                        <p class="phonenumber">Call or Text: <span>(281)-973-0281</span></p>
+                    </a>
+                    <a class="button btn-small" href="/book-now/">Book Now</a>
+                </div>
+
+                <div class="mobile-cta">
+                    <a href="tel:2819730281">
+                        <p class="phonenumber">Call or Text: <span>(281)-973-0281</span></p>
+                    </a>
+                    <a class="button btn-small" href="/book-now/">Book Now</a>
+                </div>
+                <a class=" button btn-lg-2" href="/why-choose-us/">Why Choose Us?</a>
+            </div>
+            <div class="bottomhead">
+                <label for="toggle" class="nav-toggle"><span></span></label>
+                <input type="checkbox" id="toggle">
+                <nav>
+                    <ul class="nav-list">
+                        <li id="diff" class="nav-li"><a class="nav-link" href="/why-choose-us/">Why Choose Us?</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/carpet/">Carpet</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/tile/">Tile</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/upholstery/">Upholstery</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/stone/">Stone</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/area-rug-cleaning/">Area Rugs</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/repairs/">Repairs</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/service-area/">Service Area</a></li>
+                        <li class="nav-li"><a class="nav-link" href="/blog/">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        {% block content %}{% endblock %}
+        <!--Messenger-->
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-c0469224-6c8f-4791-94a3-533b573bbe2b"></div>
+        <!--End Messenger-->
+        <!--Cookies-->
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-7a9bcffe-6c7a-43cf-ae6b-6728535d29d5"></div>
+        <!--End Cookies-->
+        <footer>
+            <div class="foot-columns">
+                <div id="linkcol" class="col col-4">
+                    <h4><a href="/service-area/">Areas We Serve:</a></h4>
+                    <ul class="foot-areas-list">
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Kingwood</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Atascocita</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Huffman</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">The Woodlands</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Spring</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Humble</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Porter</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">New Caney</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Roman Forest</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Houston</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Conroe</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Crosby</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Dayton</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Liberty</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Splendora</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Cypress</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Tomball</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Magnolia</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Bellaire</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Katy</a></li>
+                        <li class="foot-areas-li"><a class="foot-areas-a" href="#">Summerwood</a></li>
+                    </ul>
+                </div>
+                <div class="col col-4">
+                    <h4>Most Popular Services:</h4>
+                    <ul class="foot-serv-list">
+                        <!--<li class="foot-serv-li"> <a href="/water-damage-extraction/" class="foot-serv-a">Emergency
+                                Water Extraction (and Damage
+                                Mitigation)</a></li>-->
+                        <li class="foot-serv-li"><a href="/carpet-cleaning" class="foot-serv-a">Carpet Cleaning</a></li>
+                        <li class="foot-serv-li"> <a href="/tile-and-grout-cleaning/" class="foot-serv-a">Tile Floor Cleaning</a>
+                        </li>
+                        <li class="foot-serv-li"> <a href="/stone-floor-cleaning/" class="foot-serv-a">Stone Floor Cleaning</a>
+                        </li>
+                        <li class="foot-serv-li"> <a href="/commercial-services" class="foot-serv-a">Commercial Cleaning Services</a></li>
+                        <li class="foot-serv-li"> <a href="/carpet-stretching/" class="foot-serv-a">Carpet Stretching</a></li>
+                        <li class="foot-serv-li"> <a href="/carpet-repair/" class="foot-serv-a">Carpet Repair</a></li>
+                        <li class="foot-serv-li"> <a href="/carpet-cleaning/pet-stain-odor-treatment/" class="foot-serv-a">Pet Stain and Odor Remidiation</a>
+                        </li>
+                        <li class="foot-serv-li"> <a href="/grout-recoloring/" class="foot-serv-a">Grout Recoloring</a>
+                        </li>
+                        <li class="foot-serv-li"> <a href="/upholstery-cleaning-services/"
+                                class="foot-serv-a">Upholstery Cleaning</a></li>
+                        <li class="foot-serv-li"> <a href="/area-rug-cleaning/" class="foot-serv-a">Area Rug Cleaning</a></li>
+                        <li class="foot-serv-li"> <a href="/stone/" class="foot-serv-a">Stone Cleaning and
+                                Restoration</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-4">
+                    <h4>The Dirt on Decker's Carpet Cleaning:</h4>
+                    <ul class="foot-dirt-list">
+                        <li class="foot-dirt-li"><a href="/pricing/" class="foot-dirt-a">Pricing</a></li>
+                        <li class="foot-dirt-li"><a href="/#reviews/" class="foot-dirt-a">Reviews</a></li>
+                        <li class="foot-serv-li"> <a href="/why-choose-us/#guarantee" class="foot-serv-a">Our
+                            Guarantee</a></li>
+                        <li class="foot-dirt-li"><a href="/careers/" class="foot-dirt-a">Careers</a></li>
+                        <li class="foot-dirt-li"><a href="/why-choose-us/" class="foot-dirt-a">About Decker's Carpet Cleaning</a></li>
+                        <li class="foot-dirt-li"><a href="/why-choose-us/#history" class="foot-dirt-a">Decker's Carpet Cleaning Company History</a></li>
+                        <!--<li class="foot-dirt-li"><a href="#" class="foot-dirt-a">F.A.Q. about Floor and Furniture
+                                Cleaning</a></li>-->
+                        <li class="foot-dirt-li"><a href="/stay-beautiful-club/" class="foot-dirt-a">Residential Stay
+                                Beautiful Club</a></li>
+                        <!--<li class="foot-dirt-li"><a href="#" class="foot-dirt-a">Commercial Maintenance Cleaning
+                                Agreements</a></li>-->
+                        <!--<li class="foot-dirt-li"><a href="#" class="foot-dirt-a">Our Disinfection Protocol</a></li>-->
+                        <!--<li class="foot-dirt-li"><a href="#" class="foot-dirt-a">Privacy Policy</a></li>-->
+                    </ul>
+                </div>
+                <div class="col col-4">
+                    <h4><a href="#">Contact Us:</a></h4>
+                    <ul class="foot-list-2">
+                        <li class="foot-list-li">
+                            <img src="{% static 'img/location.png' %}" alt="location pin">
+                            <p>Decker's Carpet Cleaning <br>
+                                1701 Northpark Dr Ste 14 <br>
+                                Kingwood, TX 77339 <br>
+                            </p>
+                        </li>
+                        <li class="foot-list-li">
+                            <img src="{% static 'img/phone.png' %}" alt="phone">
+                            <a href="tel:2819730281">
+                                <p>(281)-973-0281</p>
+                            </a>
+                        </li>
+                        <li class="foot-list-li">
+                            <img src="{% static 'img/mail.png' %}" alt="mail">
+                            <a href="mailto: service@deckerscarpetcleaning.com">
+                                <p>service@deckerscarpetcleaning.com</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <h4>Office Hours:</h4>
+                    <p><time itemprop="openingHours" datetime="Mo-Fri 08:00-17:00">Mon - Fri 8:00 am to 5:00 pm</time>
+                    </p>
+                    <h4>Hours of Operation:</h4>
+                    <p><time itemprop="openingHours" datetime="Mo-Fri 08:00-20:00">Mon - Sat 8:00 am to 8:00 pm</time>
+                    </p>
+                    <ul class="foot-socials">
+                        <li class="soclinks"><a href="https://www.facebook.com/DeckersCarpetCleaningKingwood"
+                                target="_blank"><img class="fb"
+                                    src="{% static 'img/Deckers-Carpet-Cleaning-Facebook.png' %}"
+                                    alt="Deckers Carpet Cleaning Facebook Icon"></a></li>
+                        <li class="soclinks"><a href="https://g.page/DeckersCarpet?gm" target="_blank"><img class='gmb'
+                                    src="{% static 'img/Deckers-Carpet-Cleaning-Google-My-Business.png' %}"
+                                    alt="Deckers Carpet Cleaning Google My Business"></a></li>
+                        <li class="soclinks"><a href="https://www.instagram.com/deckerscarpetcleaning/"
+                                target="_blank"><img class='ig'
+                                    src="{% static 'img/Deckers-Carpet-Cleaning-Instagram.png' %}"
+                                    alt="Deckers Carpet Cleaning Instagram"></a></li>
+                    </ul>
+                    <ul class="foot-socials">
+                        <li class="soclinks"><a
+                                href=https://www.bbb.org/us/tx/kingwood/profile/carpet-and-rug-cleaners/deckers-carpet-cleaning-0915-90053228/#sealclick
+                                target="_blank" rel="nofollow"><img class="bbb"
+                                    src=https://seal-houston.bbb.org/seals/blue-seal-200-42-whitetxt-bbb-90053228.png
+                                    style="border: 0;" alt="Decker's Carpet Cleaning BBB Business Review" /></a></li>
+                        <li class="soclinks"><a class="custylobby"
+                                href="https://www.customerlobby.com/reviews/24131/decker-s-carpet-cleaning/"
+                                onclick="window.open('https://www.customerlobby.com/reviews/24131/decker-s-carpet-cleaning/', 'ReviewPage', 'statusbar=no,menubar=no,toolbar=no, scrollbars=yes,resizable=yes,width=768, height=817,left=570,top=200,screenX=570,screenY=200'); return false;"
+                                target="_blank"><img src="https://www.customerlobby.com/ctrack-24131" alt="Statistics"
+                                    style="display: none; border: none;"><img alt="Review-of-Decker's-Carpet-Cleaning"
+                                    src="https://www.customerlobby.com/img/24131/compact" style="border: none;"></a>
+                        </li></ul>
+                        <ul class="foot-socials">
+                        <li>
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div class="elfsight-app-f40a7c7b-0c84-4aba-a281-43f567b9dab7"></div>
+                        </li>
+                        <li >
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div class="elfsight-app-49f9c828-c1d1-4a9d-948f-d14776eeb5cc"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

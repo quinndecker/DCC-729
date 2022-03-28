@@ -1,0 +1,76 @@
+{% extends "base.html" %} {% block meta %}
+<meta
+  name="description"
+  content="Dirty Grout? Sticky Tile? Outdated or Damaged Grout? We can help! Don't replace your tile until you read this. Free consultation."
+/>
+<meta
+  name="keywords"
+  content="Tile Cleaning, Tile Cleaner, Grout Cleaning, Grout Cleaner, Tile & Grout, Grout Repair, ceramic tile, porcelain tile, damaged grout, regrout, tile seal, grout seal, tile shower"
+/>
+<title>Decker's Carpet Cleaning | Tile and Grout Cleaning and Repair</title>
+{% endblock meta %} {% load static %} {% block content %}
+<div class="space"><br /><br /><br /></div>
+<div
+  class="service-page-banner"
+  style="
+    background-image: url('/static/img/Clean-Tile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  "
+>
+  <h1>Professional Tile and Grout Cleaning and Repair Services</h1>
+  <p id="smaller" class="text">
+    Don't replace your tile floor, backsplash, or shower when Decker's Carpet
+    Cleaning can restore it! <br />
+    Our technicians are trained in a wide range of tile and grout cleaning and
+    repair services
+  </p>
+  <div class="breaker"></div>
+  <div class="col col-servpagenav">
+    <ul class="service-page-services">
+      <li>
+        <a href="/tile-and-grout-cleaning">
+          <h2>Tile & Grout Cleaning</h2>
+        </a>
+      </li>
+      <li>
+        <a href="/grout-sealing/">
+          <h2>Grout Sealing</h2>
+        </a>
+      </li>
+      <li>
+        <a href="/grout-recoloring/">
+          <h2>Grout Recoloring</h2>
+        </a>
+      </li>
+      <li>
+        <a href="/grout-repair/">
+          <h2>Grout Repair</h2>
+        </a>
+      </li>
+      <!--<li> <a href="/water-damage-extraction/">
+                    <h2>Water Extraction & Damage Mitigation</h2>
+                </a> </li>-->
+      <li>
+        <a href="/stay-beautiful-club/">
+          <h2>Stay Beautiful Club</h2>
+        </a>
+      </li>
+      <li>
+        <a href="/commercial-tile-cleaning/">
+          <h2>Commercial Tile Cleaning</h2>
+        </a>
+      </li>
+      <!-- <li> <a href="/tile-floor-slip-reduction/">
+                    <h2>Tile Floor Slip Reduction</h2>
+                </a> </li>-->
+    </ul>
+  </div>
+  <div class="schedulebtn">
+    <a class="button btn-lg" href="/book-now/"
+      >Schedule Your Free Consultation Today!</a
+    >
+  </div>
+</div>
+
+{% endblock content %}
