@@ -69,6 +69,9 @@ urlpatterns = [
     path('pricing/', views.pricing),
     path('careers/', views.careers),
     path('meet-our-team/', views.meetourteam),
+    path('about-us/', views.whychooseus),
+    path('about-us/privacy-policy/', views.privacypolicy),
+    path('contact/', views.booknow),
 
 
 

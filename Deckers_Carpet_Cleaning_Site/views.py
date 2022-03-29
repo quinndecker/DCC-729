@@ -130,3 +130,5 @@ def careers(request):
     return render(request, 'careers.html')
 def meetourteam(request):
     return render(request, 'meet-our-team.html')
+def privacypolicy(request):
+    return render(request, 'privacy-policy.html')
