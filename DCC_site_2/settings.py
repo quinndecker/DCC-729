@@ -25,9 +25,9 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'django-insecure-@c155zl4!jn$se=-2n43dwhx4udydfifov9y36bzuc+^ow0t_t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'deckers-carpet-cleaning-test-3.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1', 'deckers-carpet-cleaning-test-3.herokuapp.com']
 
 
 # Application definition
