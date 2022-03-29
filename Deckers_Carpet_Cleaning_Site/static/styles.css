@@ -561,6 +561,7 @@ footer {
 }
 .history {
   margin: 0 auto;
+  max-width: 90%;
 }
 .history h2 {
   color: #eef2f8;
