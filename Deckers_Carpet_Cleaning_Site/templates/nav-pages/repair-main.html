@@ -11,14 +11,7 @@
 <title>Carpet, Tile, Upholstery, and Stone Repair Services</title>
 {% endblock meta %} {% load static %} {% block content %}
 <div class="space"><br /><br /><br /></div>
-<div
-  class="service-page-banner"
-  style="
-    background-image: url('/static/img/Carpet-Cleaning-Banner-1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  "
->
+<div class="service-page-banner" id="repair-banner">
   <h1>Save money by repairing your carpet, tile, upholstery, or stone.</h1>
   <div class="breaker"></div>
   <div class="col col-servpagenav">
@@ -56,7 +49,7 @@
       </li>
     </ul>
   </div>
-  <div class="schedulebtn">
+  <div id="servpageschedulebtn" class="schedulebtn">
     <a class="button btn-lg" href="/book-now/"
       >Schedule Your Free Consultation Today!</a
     >

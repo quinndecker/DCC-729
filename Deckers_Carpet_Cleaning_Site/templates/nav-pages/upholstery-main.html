@@ -10,14 +10,7 @@
 <title>Decker's Carpet Cleaning | Upholstery Cleaning</title>
 {% endblock meta %} {% load static %} {% block content %}
 <div class="space"><br /><br /><br /></div>
-<div
-  class="service-page-banner"
-  style="
-    background-image: url('/static/img/Clean-Upholstery.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  "
->
+<div class="service-page-banner" id="upholstery-banner">
   <h1>Professional Upholstery Cleaning Services</h1>
   <p id="smaller" class="text">
     Don't replace your upholstered furniture when Decker's Carpet Cleaning can
@@ -69,7 +62,7 @@
       </li>
     </ul>
   </div>
-  <div class="schedulebtn">
+  <div id="servpageschedulebtn" class="schedulebtn">
     <a class="button btn-lg" href="/book-now/"
       >Schedule Your Free Consultation Today!</a
     >

@@ -462,6 +462,10 @@ footer {
   display: flex;
   align-items: baseline;
 }
+.foot-socials-elf {
+  display: flex;
+  align-items: baseline;
+}
 #mobile-foot-icons {
   display: none;
 }
@@ -602,6 +606,32 @@ footer {
   margin-top: 2rem;
   text-shadow: 0 0 10px black, 0 0 13px black;
 }
+#carpet-banner {
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#repair-banner {
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#tile-banner {
+  background-image: url("/static/img/Clean-Tile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#upholstery-banner {
+  background-image: url("/static/img/Clean-Upholstery.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#stone-banner {
+  background-image: url("/static/img/Clean-Stone.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .service-page-services h2 {
   color: #eef2f8;
   font-family: "Montserrat";
@@ -615,13 +645,10 @@ footer {
 #stone-serv-list h2 {
   font-size: 1.15rem;
 }
-.service-page-services a {
-  text-decoration: none;
-}
 .sub-serv-links {
   color: #eef2f8;
-  text-decoration: none;
 }
+
 .service-page-services a:hover {
   text-decoration: underline;
   color: #eef2f8;
@@ -859,6 +886,13 @@ footer {
   color: white;
 }
 @media only screen and (max-width: 1147px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   .col-media-4 {
     width: 100%;
   }
@@ -872,6 +906,13 @@ footer {
   }
 }
 @media only screen and (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   .logo {
     display: none;
   }
@@ -985,8 +1026,40 @@ footer {
   .van {
     margin-top: 0rem;
   }
+  .innards {
+    max-width: 95%;
+  }
+  .text h1 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+  .text h1 span {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+  }
   .service-page-banner {
     margin-top: 0rem;
+  }
+  .service-page-banner h1 {
+    max-width: 95%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .service-page-banner p {
+    max-width: 95%;
+    margin-left: 0.5rem;
+  }
+  .service-page-services {
+    padding-left: 0.75rem;
+  }
+  .col-servpagenav {
+    padding-top: 0.5rem;
+  }
+  #servpageschedulebtn {
+    padding-left: 0rem;
   }
   .space {
     display: none;
@@ -1051,6 +1124,10 @@ footer {
     color: #eef2f8;
     font-family: "Montserrat";
     font-size: 1.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .service-page-services a {
+    text-decoration: underline white;
   }
   .service-page-banner h1 {
     font-size: 2rem;
@@ -1097,5 +1174,43 @@ footer {
   }
   #book-three {
     display: none;
+  }
+  .foot-socials {
+    margin-left: -1rem;
+  }
+  .foot-socials-elf {
+    flex-direction: column;
+  }
+  #carpet-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #tile-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #upholstery-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #stone-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #repair-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  .service-page-services h2 {
+    font-family: "Lobster", cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #293f90;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 0.75rem;
+  }
+  .col-text-2 p {
+    text-align: center;
   }
 }

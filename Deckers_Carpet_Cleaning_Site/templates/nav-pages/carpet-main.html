@@ -11,14 +11,7 @@
 <title>Carpet Cleaning and Repair | Decker's Carpet Cleaning</title>
 {% endblock meta %} {% load static %} {% block content %}
 <div class="space"><br /><br /><br /></div>
-<div
-  class="service-page-banner"
-  style="
-    background-image: url('/static/img/Carpet-Cleaning-Banner-1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  "
->
+<div class="service-page-banner" id="carpet-banner">
   <h1>Professional Carpet Cleaning and Repair Services</h1>
   <p id="smaller" class="text">
     Don't replace your carpet when Decker's Carpet Cleaning can restore it!
@@ -79,7 +72,7 @@
       </li>
     </ul>
   </div>
-  <div class="schedulebtn">
+  <div id="servpageschedulebtn" class="schedulebtn">
     <a class="button btn-lg" href="/book-now/"
       >Schedule Your Free Consultation Today!</a
     >
