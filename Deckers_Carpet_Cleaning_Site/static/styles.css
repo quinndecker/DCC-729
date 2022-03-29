@@ -522,7 +522,7 @@ footer {
 }
 .values {
   padding-top: 3.5rem;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
 }
 .values span {
@@ -538,7 +538,7 @@ footer {
 }
 .guarantee {
   padding-top: 3.5rem;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
 }
 .guarantee span {
@@ -565,7 +565,6 @@ footer {
 }
 .history {
   margin: 0 auto;
-  max-width: 90%;
 }
 .history h2 {
   color: #eef2f8;
@@ -1066,6 +1065,7 @@ footer {
   }
   .content-wrap {
     padding-top: 1rem;
+    width: 95%;
   }
   .body-columns {
     flex-direction: column;
@@ -1211,6 +1211,21 @@ footer {
     margin-top: 0.75rem;
   }
   .col-text-2 p {
+    text-align: center;
+  }
+  .list {
+    padding-left: 0.25rem;
+  }
+  .yelpwidget {
+    display: none;
+  }
+  .googlewidget {
+    display: none;
+  }
+  .guarantee h2 {
+    text-align: center;
+  }
+  .history h2 {
     text-align: center;
   }
 }
