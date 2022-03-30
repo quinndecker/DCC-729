@@ -1236,4 +1236,7 @@ footer {
   .history h2 {
     text-align: center;
   }
+  #spaceless-content-wrap-2 {
+    margin-top: 1rem;
+  }
 }
