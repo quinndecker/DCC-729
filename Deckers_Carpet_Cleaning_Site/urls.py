@@ -25,7 +25,7 @@ urlpatterns = [
     path('carpet-repair/', views.carpetrepair),
     path('commercial-carpet-cleaning/', views.commercialcarpetcleaning),
     path('advanced-spot-treatment/', views.advancedspot),
-    path('carpet-protector', views.carpetprotector),
+    path('carpet-protector/', views.carpetprotector),
 
     #-Layer 2 Tile Pages-#
     path('tile-and-grout-cleaning/', views.tilegroutcleaning),
@@ -62,7 +62,6 @@ urlpatterns = [
     path('stay-beautiful-club/', views.staybeautiful),
     path('service-area/', views.servicearea),
     path('commercial-services/', views.commericalservices),
-    path('carpet-stretching-and-repair/', views.stretchrepair),
     path('water-damage-extraction/', views.waterdamage),
     path('stone-floor-and-countertop-care/', views.stonemain),
     path('commercial-service-directory/', views.commercialdirectory),
@@ -72,8 +71,10 @@ urlpatterns = [
     path('about-us/', views.whychooseus),
     path('about-us/privacy-policy/', views.privacypolicy),
     path('contact/', views.booknow),
+    path('carpet-stretching-and-repair/', views.repairmain),
 
-
+    ## City Pages ##
+    path('the-woodlands-tx-carpet-cleaning/', views.thewoodlandscitypage),
 
 
 

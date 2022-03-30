@@ -96,8 +96,6 @@ def arearugrepair(request):
     return render(request, 'layer-2/rugs/area-rug-repair.html')
 
 ##--##
-def stretchrepair(request):
-    return render(request, 'layer-2/carpet/carpet-stretching-and-repair.html')
 def waterdamage(request):
     return render(request, 'layer-2/water-damage-extraction.html')
 def commercialdirectory(request):
@@ -132,3 +130,8 @@ def meetourteam(request):
     return render(request, 'meet-our-team.html')
 def privacypolicy(request):
     return render(request, 'privacy-policy.html')
+
+#City Pages#
+
+def thewoodlandscitypage(request):
+    return render(request, 'city-pages/the-woodlands-tx-carpet-cleaning.html')

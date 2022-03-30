@@ -488,8 +488,13 @@ footer {
 .col-media-4 {
   width: 20%;
 }
+.col-text-5 p {
+  text-align: center;
+}
 .bbbwidget {
-  padding-left: 0.5rem;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+  align-self: flex-end;
 }
 .clwidget {
   padding-left: 0.1rem;
@@ -863,7 +868,9 @@ footer {
 .cta:focus {
   transform: scale(1.1);
 }
-
+#spaceless-content-wrap-2 {
+  margin-top: -5rem;
+}
 .content-wrap.lower {
   padding-top: 0.25rem;
 }
@@ -904,6 +911,7 @@ footer {
     max-width: 269px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   html,
   body {
