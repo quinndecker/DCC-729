@@ -509,6 +509,10 @@ footer {
 .review-widgets {
   list-style: none;
 }
+.special-h2 {
+  color: #eef2f8;
+  text-align: center;
+}
 .body-columns-2 {
   display: flex;
   margin: 0 auto;
@@ -1238,5 +1242,18 @@ footer {
   }
   #spaceless-content-wrap-2 {
     margin-top: 1rem;
+  }
+  .area-lists {
+    padding-left: 0%;
+  }
+  .col-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area-list {
+    padding-left: 0;
+  }
+  .col-6 li {
+    font-size: 1rem;
   }
 }
