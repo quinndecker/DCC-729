@@ -64,7 +64,7 @@ urlpatterns = [
     path('commercial-services/', views.commericalservices),
     path('water-damage-extraction/', views.waterdamage),
     path('stone-floor-and-countertop-care/', views.stonemain),
-    path('commercial-service-directory/', views.commercialdirectory),
+    #path('commercial-service-directory/', views.commercialdirectory),
     path('pricing/', views.pricing),
     path('careers/', views.careers),
     path('meet-our-team/', views.meetourteam),

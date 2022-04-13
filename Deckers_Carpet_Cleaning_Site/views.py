@@ -98,8 +98,8 @@ def arearugrepair(request):
 ##--##
 def waterdamage(request):
     return render(request, 'layer-2/water-damage-extraction.html')
-def commercialdirectory(request):
-    return render(request,'commercial-services.html')
+#def commercialdirectory(request):
+    #return render(request,'commercial-services.html')
 
 ## Blog Stuff ##
 
