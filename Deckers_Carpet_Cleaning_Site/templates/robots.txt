@@ -1,0 +1,18 @@
+User-Agent: *
+
+Disallow: /area-rugs/
+Disallow: /tile-floor-slip-reduction/
+Disallow: /upholstery-repair/
+Disallow: /marble-travertine-limestone/
+Disallow: /stone-backsplash-cleaning-and-sealing/
+Disallow: /commercial-stone-care/
+Disallow: /stone-floor-slip-reduction/
+Disallow: /area-rug-repair/
+Disallow: /stone-floor-and-countertop-care/
+Disallow: /about-us/
+Disallow: /contact/
+Disallow: /carpet-stretching-and-repair/
+Disallow: /water-damage-extraction/
+
+
+Sitemap: https://deckerscarpetcleaning.com.com/sitemap.xml

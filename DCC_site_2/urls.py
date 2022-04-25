@@ -18,9 +18,24 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from Deckers_Carpet_Cleaning_Site.sitemaps import PostSitemap, StaticViewSitemap
+from django.contrib.sitemaps.views import sitemap
+
+from Deckers_Carpet_Cleaning_Site import views as blog_views
+
+from django.views.generic.base import TemplateView
+
+sitemaps = {
+    'posts': PostSitemap,
+    'static': StaticViewSitemap,
+}
+
 
 urlpatterns = [
     path('', include('Deckers_Carpet_Cleaning_Site.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
+    path('<slug:slug>/', blog_views.Post, name='post'),
+    path('robots.txt', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
 
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'Deckers_Carpet_Cleaning_Site',
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -44,6 +46,9 @@ INSTALLED_APPS = [
     'ckeditor',
     'imagekit',
 ]
+
+SITE_ID =1
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",

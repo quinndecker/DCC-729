@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, get_object_or_404
 
 
 def homepage(request): 
@@ -114,6 +114,14 @@ class PostDetail(generic.DetailView):
     model = Post
     template_name = 'post_detail.html'
 
+#info for sitemap#
+
+def Post(request, post_slug=Post.slug):
+
+    item = get_object_or_404(Post, slug=post_slug)
+
+    return render(request,'post_detail.html', {'post': item})
+
 ## Other Pages ##
 
 def staybeautiful(request):
@@ -137,3 +145,4 @@ def thewoodlandscitypage(request):
     return render(request, 'city-pages/the-woodlands-tx-carpet-cleaning.html')
 def atascocitacitypage(request):
     return render(request, 'city-pages/atascocita-tx-carpet-cleaning.html')
+

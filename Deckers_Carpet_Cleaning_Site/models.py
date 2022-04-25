@@ -5,6 +5,7 @@ from datetime import datetime, date
 from ckeditor.fields import RichTextField
 from imagekit.models import ImageSpecField
 from imagekit.processors import SmartResize
+from django.urls import reverse
 
 STATUS = (
     (0,"Draft"),
@@ -32,3 +33,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('post', args=[str(self.slug)])
