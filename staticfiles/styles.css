@@ -1,0 +1,1259 @@
+/* Borders */
+body {
+  background-color: #628ec9;
+  font-family: "Montserrat";
+  width: 100%;
+  font-weight: bold;
+}
+body h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 550;
+}
+body h2 {
+  font-family: "Lobster", cursive;
+}
+.anchor {
+  display: block;
+  position: relative;
+  top: -10rem;
+  visibility: hidden;
+}
+
+/*Layout*/
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+.col {
+  margin: 0;
+  flex-basis: auto;
+}
+.van {
+  background-image: url("/static/img/Deckers-Carpet-Cleaning-Vans-2.png");
+  margin-top: 0.5rem;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+/*Header Layout*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.tophead {
+  background-color: #293f90;
+  height: 5rem;
+  display: flex;
+  max-width: 100%;
+}
+.logo {
+  width: 14rem;
+  display: inline-block;
+  margin-left: 1rem;
+  position: absolute;
+}
+.mobile-logo {
+  display: none;
+}
+.bottomhead {
+  background-color: #d82730;
+  display: inline-flex;
+  height: 4.5rem;
+  width: 100%;
+  padding: 0.7rem;
+}
+.nav-list {
+  display: inline-flex;
+}
+
+.col-hd {
+  display: flex;
+  align-items: baseline;
+  margin-top: 2rem;
+  margin-left: 13rem;
+  width: auto;
+}
+.btn-lg-2 {
+  display: inline-flex;
+  height: 3rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  margin-right: 4rem;
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.btn-lg-2:hover {
+  color: white;
+  text-decoration: underline;
+}
+.mobile-cta {
+  display: none;
+}
+.phonenumber {
+  color: #eef2f8;
+  font-size: x-large;
+  font-weight: 500;
+  padding-right: 1.5rem;
+  font-family: "Lobster", cursive;
+}
+.phonenumber span {
+  color: #eef2f8;
+  font-weight: bolder;
+  text-shadow: -0.3px 0 white, 0 0.3px white, 0.3px 0 white, 0 -0.3px white;
+  font-family: "Montserrat";
+}
+.btn-small {
+  background: green;
+  padding: 0.1rem 0.75rem;
+  border-radius: 5px;
+  color: #eef2f8;
+  border: 1.5px solid black;
+  text-align: center;
+}
+.btn-small:hover {
+  text-decoration: none;
+  color: black;
+}
+.nav-list {
+  position: absolute;
+  right: 1rem;
+}
+.nav-li {
+  list-style: none;
+  font-size: medium;
+  padding-top: 0.2rem;
+}
+.nav-link {
+  color: #eef2f8;
+  font-family: "Lobster", cursive;
+  font-size: larger;
+  font-weight: lighter;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #eef2f8;
+}
+/*burger*/
+label {
+  line-height: 70px;
+  display: none;
+}
+#toggle {
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+#diff {
+  display: none;
+}
+/*Content Style*/
+.innards {
+  max-width: 60%;
+  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 13rem;
+}
+.text {
+  color: White;
+  font-weight: bolder;
+  font-size: x-large;
+  text-shadow: 0 0 10px black, 0 0 13px black;
+  text-align: center;
+}
+.text h1 {
+  text-shadow: 0 0 7px black, 0 0 10px black;
+  text-align: Center;
+  font-size: 5rem;
+}
+.schedulebtn {
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.text h1 span {
+  font-size: 3.5rem;
+}
+.text a {
+  color: white;
+  text-decoration: underline;
+}
+#smaller {
+  font-size: large;
+}
+#extra-small {
+  font-size: medium;
+}
+.content {
+  max-width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem;
+  margin-top: 1rem;
+}
+.body-columns {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.body-left {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eef2f8;
+  width: 50%;
+  left: 1rem;
+}
+.col-text {
+  padding: 3rem;
+}
+.col-text a {
+  color: black;
+  text-decoration: underline;
+}
+.body-serv-list li {
+  list-style: square;
+}
+.col-media {
+  max-width: 37.8%;
+}
+.col-media img {
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+h1 {
+  width: 100%;
+  color: #eef2f8;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 3rem;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.btn-lg {
+  display: inline-block;
+  background-color: #d82730;
+  color: white;
+  border: 2.5px solid black;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+}
+.btn-lg:hover {
+  color: white;
+  text-decoration: underline;
+}
+.contentmedia {
+  width: 100%;
+}
+.breaker {
+  height: 0.1rem;
+  background-color: #eef2f8;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services {
+  max-width: 100%;
+  background-color: #293f90;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.serv {
+  color: #eef2f8;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 0.2rem;
+}
+.servicetext {
+  color: #eef2f8;
+  margin-top: 1rem;
+}
+.servicetext a {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.whitebreaker {
+  height: 0.1rem;
+  background-color: #eef2f8;
+  width: 20%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.servicerow {
+  display: flex;
+  margin: 0 auto;
+}
+.servpic {
+  width: 8rem;
+  padding: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+.services a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.col-3 {
+  width: 20%;
+}
+.col-3 h3 {
+  text-align: center;
+  color: #eef2f8;
+  font-weight: bolder;
+}
+.techs {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+.techs h2 {
+  margin: 0 auto;
+  text-align: center;
+  color: #eef2f8;
+  padding-bottom: 0.5rem;
+}
+.techs p {
+  color: #eef2f8;
+}
+.col-text-2 button {
+  margin-left: 5rem;
+}
+.white-block {
+  background-color: #eef2f8;
+}
+.reviews {
+  max-width: 100%;
+}
+.inner-white-block {
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.white-block h2 {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.col-text-3 {
+  width: 40%;
+}
+.col-media-2 {
+  max-width: 40%;
+}
+.review-columns {
+  display: flex;
+}
+.stay-beautiful {
+  max-width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.stay-beautiful h2 {
+  color: #eef2f8;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.stay-beautiful p {
+  color: #eef2f8;
+}
+.services a {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.techs a {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.inner-white-block a {
+  color: black;
+  text-decoration: underline;
+}
+.areas {
+  margin: 0 auto;
+  color: #eef2f8;
+  width: 70%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.areas a {
+  text-decoration: underline;
+  color: #eef2f8;
+}
+.centerme {
+  display: flex;
+  justify-content: center;
+}
+.mapblock {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.map {
+  margin-top: 0.75rem;
+  max-width: 100%;
+}
+footer {
+  background-color: #d82730;
+  padding-top: 1.5rem;
+}
+.foot-columns {
+  display: flex;
+}
+.col-4 {
+  width: 25%;
+}
+.col-4 li {
+  list-style: none;
+}
+.col-4 ul {
+  padding-inline-start: 0;
+}
+.col-4 a {
+  color: #eef2f8;
+}
+.foot-areas-a {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+.foot-serv-a {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+.foot-dirt-a {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+.foot-columns h4 {
+  color: #eef2f8;
+  font-size: 1rem;
+}
+.foot-list-li {
+  display: flex;
+}
+.foot-list-li p {
+  font-size: 0.7rem;
+  color: #eef2f8;
+  padding-top: 0.5rem;
+}
+#linkcol {
+  width: 17rem;
+  padding-left: 5rem;
+}
+.col-4 p {
+  color: #eef2f8;
+  font-size: 0.7rem;
+}
+.gmb {
+  width: 1.6rem;
+}
+.ig {
+  width: 1.6rem;
+  margin-left: 0.7rem;
+}
+.foot-socials {
+  display: flex;
+  align-items: baseline;
+}
+.foot-socials-elf {
+  display: flex;
+  align-items: baseline;
+}
+#mobile-foot-icons {
+  display: none;
+}
+
+/* Why Choose Us?*/
+.content-wrap {
+  width: 85%;
+  padding-top: 6rem;
+  margin: 0 auto;
+}
+.content-wrap h1 {
+  padding-bottom: 1.5rem;
+}
+.content-wrap p {
+  color: #eef2f8;
+}
+.col-text-4 {
+  width: 80%;
+}
+.col-media-4 {
+  width: 20%;
+}
+.col-text-5 p {
+  text-align: center;
+}
+.bbbwidget {
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+  align-self: flex-end;
+}
+.clwidget {
+  padding-left: 0.1rem;
+}
+.yelpwidget {
+  padding-left: 2.25rem;
+}
+.googlewidget {
+  padding-left: 2.25rem;
+  margin-top: 0.75rem;
+}
+.review-widgets {
+  list-style: none;
+}
+.special-h2 {
+  color: #eef2f8;
+  text-align: center;
+}
+.body-columns-2 {
+  display: flex;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+.body-right {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eef2f8;
+  margin-top: 1.2rem;
+}
+.whychooselist {
+  padding: 2.5rem;
+  list-style: square;
+}
+.values {
+  padding-top: 3.5rem;
+  /*width: 90%;*/
+  margin: 0 auto;
+}
+.values span {
+  text-decoration: underline;
+}
+.values h2 {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.list {
+  color: #eef2f8;
+  list-style: square;
+}
+.guarantee {
+  padding-top: 3.5rem;
+  /*width: 90%;*/
+  margin: 0 auto;
+}
+.guarantee span {
+  text-decoration: underline;
+}
+.tagline {
+  font-size: larger;
+  text-align: center;
+  font-style: italic;
+  color: #eef2f8;
+}
+.content-tagline {
+  text-align: center;
+  font-style: italic;
+  color: #eef2f8;
+}
+.whitetext {
+  color: #eef2f8;
+}
+
+.guarantee h2 {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.history {
+  margin: 0 auto;
+}
+.history h2 {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.two-buttons {
+  display: inline-block;
+}
+#book-two {
+  background: green;
+  position: absolute;
+  right: 4rem;
+}
+#book-two-2 {
+  background: green;
+  position: absolute;
+  right: 4rem;
+}
+#book-two-3 {
+  background: green;
+  position: absolute;
+  right: 4rem;
+}
+#book-three {
+  background: green;
+  color: #eef2f8;
+  margin-left: 0.75rem;
+}
+/* Carpet-Main*/
+.service-page-banner {
+  margin-top: 5rem;
+  width: 100%;
+  border-top: 0.5rem solid #293f90;
+  border-bottom: 0.5rem solid #293f90;
+  height: 35rem;
+}
+.service-page-banner h1 {
+  margin-top: 2rem;
+  text-shadow: 0 0 10px black, 0 0 13px black;
+}
+#carpet-banner {
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#repair-banner {
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#tile-banner {
+  background-image: url("/static/img/Clean-Tile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#upholstery-banner {
+  background-image: url("/static/img/Clean-Upholstery.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#stone-banner {
+  background-image: url("/static/img/Clean-Stone.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.service-page-services h2 {
+  color: #eef2f8;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.content-subheaders {
+  color: #eef2f8;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+#stone-serv-list h2 {
+  font-size: 1.15rem;
+}
+.sub-serv-links {
+  color: #eef2f8;
+}
+
+.service-page-services a:hover {
+  text-decoration: underline;
+  color: #eef2f8;
+}
+.service-page-services li {
+  list-style: none;
+}
+.col-servpagenav {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-left: 0;
+}
+.content-wrap-2 {
+  width: 100%;
+  padding-top: 2rem;
+  margin: 0 auto;
+  background-color: #eef2f8;
+}
+.content-wrap-2 h3 {
+  font-family: "Lobster", cursive;
+}
+.blog-post-list {
+  padding: 1rem;
+}
+.blog-titles {
+  color: #eef2f8;
+}
+.posts {
+  padding-left: 2rem;
+}
+.card-text {
+  font-size: small;
+}
+.blog-img {
+  width: 100%;
+}
+.read-more {
+  color: #eef2f8;
+}
+.blog-post {
+  color: #eef2f8;
+}
+.blog-post a {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.area-lists {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding-left: 7.5rem;
+}
+.col-6 {
+  width: 33%;
+}
+.col-6 li {
+  list-style: none;
+  color: #eef2f8;
+  text-decoration: underline;
+  font-size: 1.25rem;
+}
+.col-6 a {
+  color: #eef2f8;
+}
+.subheader {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.memberbenefits {
+  color: #eef2f8;
+}
+.memberbenefits h3 {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+.resi-cleaning-services h2 {
+  color: #eef2f8;
+}
+.breaker-2 {
+  height: 0.1rem;
+  background-color: #eef2f8;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Pricing Page*/
+.pricehead {
+  background-color: #f8f9fb;
+  margin: 0;
+  width: 100%;
+  align-items: stretch;
+  padding: 1rem;
+}
+.pricehead h2 {
+  text-align: center;
+}
+.price-comparison {
+  background-color: #f8f9fb;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2.5rem 1rem 2.5rem 1rem;
+}
+.price-card {
+  background-color: white;
+  box-shadow: 0 7px 30px 0 rgba(51, 31, 97, 0.2);
+  padding: 2rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 28%;
+  border-radius: 8px;
+}
+.price-card.popular {
+  position: relative;
+  background-color: #293f90;
+  color: white;
+  box-shadow: 0 7px 30px 0 rgba(52, 13, 135, 0.4);
+  margin-top: -1.5rem;
+  padding-top: 3.5rem;
+  margin-bottom: -1.5rem;
+  padding-bottom: -3.5rem;
+}
+.price-card:first-child {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.price-card:last-child {
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+.price-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.price {
+  font-size: 3rem;
+  display: flex;
+}
+.dollar-sign {
+  font-size: 1.25rem;
+  margin: 0.5rem 0.25rem 0 0;
+}
+.per {
+  font-size: 1rem;
+  align-self: flex-end;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+}
+.cleaning-method {
+  font-family: "Lobster", cursive;
+  font-size: 1.85rem;
+  margin-top: 0rem;
+}
+
+.breaker-3 {
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1rem 0 1rem 0;
+}
+.price-card.popular .breaker-3 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.price-card.popular .features .list {
+  color: #eef2f8;
+}
+
+.most-popular {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.features .list {
+  color: #293f90;
+  font-size: small;
+}
+.features .list a {
+  color: #293f90;
+  text-decoration: underline;
+}
+
+.cta {
+  background-color: #d82730;
+  color: #eef2f8;
+  padding: 0.25rem;
+  width: 100%;
+  font-family: "Lobster", cursive;
+  font-size: 1.75rem;
+  border: 2.5px solid black;
+  font-weight: lighter;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.cta:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.cta:hover,
+.cta:focus {
+  transform: scale(1.1);
+}
+#spaceless-content-wrap-2 {
+  margin-top: -5rem;
+}
+.content-wrap.lower {
+  padding-top: 0.25rem;
+}
+.price-card-learn-more {
+  text-decoration: underline;
+}
+.price-card.popular .price-card-learn-more {
+  color: white;
+}
+.whitelinks {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.whitelinks:hover {
+  color: #eef2f8;
+  text-decoration: underline;
+}
+.price-card.popular .features .list a {
+  color: white;
+}
+@media only screen and (max-width: 1147px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .col-media-4 {
+    width: 100%;
+  }
+  .body-columns-2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .clobby-review-widget {
+    max-width: 269px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .logo {
+    display: none;
+  }
+  .mobile-logo {
+    display: block;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .col-hd {
+    display: none;
+  }
+  .mobile-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .phonenumber {
+    padding-right: 0;
+  }
+  header {
+    position: relative;
+  }
+  .tophead {
+    height: 13rem;
+    display: block;
+  }
+  .btn-lg-2 {
+    display: none;
+  }
+  .bottomhead {
+    padding: 0;
+  }
+  nav {
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+  }
+  nav a {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out 200ms;
+  }
+  label {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .nav-toggle span,
+  .nav-toggle span::before,
+  .nav-toggle span::after {
+    display: inline-block;
+    background: #eef2f8;
+    height: 0.2rem;
+    width: 2rem;
+    border-radius: 2px;
+    vertical-align: middle;
+    position: relative;
+  }
+  .nav-toggle span::before,
+  .nav-toggle span::after {
+    content: "";
+    position: absolute;
+  }
+  .nav-toggle span::before {
+    bottom: 0.6rem;
+  }
+  .nav-toggle span::after {
+    top: 0.6rem;
+  }
+  #toggle:checked ~ nav {
+    display: block;
+    transform: scale(1, 1);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+  #toggle:checked ~ nav a {
+    opacity: 1;
+  }
+  #diff {
+    display: block;
+  }
+  .nav-list {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    right: auto;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-li {
+    background-color: #d82730;
+    border-bottom: 1px solid #eef2f8;
+  }
+  .nav-link {
+    padding: 1rem;
+  }
+  .foot-logo {
+    display: none;
+  }
+  .foot-columns {
+    flex-direction: column;
+  }
+  #linkcol {
+    padding-left: 1rem;
+  }
+  .foot-list-2 img {
+    margin-left: -1rem;
+  }
+  .van {
+    margin-top: 0rem;
+  }
+  .innards {
+    max-width: 95%;
+  }
+  .text h1 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+  .text h1 span {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+  }
+  .service-page-banner {
+    margin-top: 0rem;
+  }
+  .service-page-banner h1 {
+    max-width: 95%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .service-page-banner p {
+    max-width: 95%;
+    margin-left: 0.5rem;
+  }
+  .service-page-services {
+    padding-left: 0.75rem;
+  }
+  .col-servpagenav {
+    padding-top: 0.5rem;
+  }
+  #servpageschedulebtn {
+    padding-left: 0rem;
+  }
+  .space {
+    display: none;
+  }
+  .content-wrap {
+    padding-top: 1rem;
+    width: 95%;
+  }
+  .body-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-text {
+    width: 100%;
+    padding: 1rem;
+  }
+  .body-left {
+    width: 100%;
+  }
+  .col-media {
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+  .btn-lg {
+    width: 90%;
+    text-align: center;
+  }
+  .servicerow {
+    flex-direction: column;
+  }
+  .col-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: none;
+    justify-content: flex-start;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .col-text-3 {
+    width: 100%;
+  }
+  .col-media-2 {
+    max-width: 100%;
+  }
+  .areas {
+    width: 90%;
+  }
+  .col-4 {
+    justify-content: left;
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-4 h4 {
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+  .foot-list-li img {
+    display: none;
+  }
+  .service-page-services h2 {
+    color: #eef2f8;
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .service-page-services a {
+    text-decoration: underline white;
+  }
+  .service-page-banner h1 {
+    font-size: 2rem;
+  }
+  .body-columns-2 {
+    flex-direction: column-reverse;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    max-width: 100%;
+  }
+  .price-comparison {
+    flex-direction: column;
+    align-items: center;
+  }
+  .price-card {
+    min-width: 90%;
+  }
+  .price-card.popular {
+    margin-top: 0rem;
+    padding-top: 3.5rem;
+    margin-bottom: 0rem;
+    padding-bottom: -3.5rem;
+  }
+  .price-card:first-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .price-card:last-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  #book-two {
+    display: none;
+  }
+  #book-two-2 {
+    display: none;
+  }
+  #book-two-3 {
+    display: none;
+  }
+  #book-three {
+    display: none;
+  }
+  .foot-socials {
+    margin-left: -1rem;
+  }
+  .foot-socials-elf {
+    flex-direction: column;
+  }
+  #carpet-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #tile-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #upholstery-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #stone-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  #repair-banner {
+    background-image: none;
+    height: fit-content;
+  }
+  .service-page-services h2 {
+    font-family: "Lobster", cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #293f90;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 0.75rem;
+  }
+  .col-text-2 p {
+    text-align: center;
+  }
+  .list {
+    padding-left: 0.25rem;
+  }
+  .yelpwidget {
+    display: none;
+  }
+  .googlewidget {
+    display: none;
+  }
+  .guarantee h2 {
+    text-align: center;
+  }
+  .history h2 {
+    text-align: center;
+  }
+  #spaceless-content-wrap-2 {
+    margin-top: 1rem;
+  }
+  .area-lists {
+    padding-left: 0%;
+  }
+  .col-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area-list {
+    padding-left: 0;
+  }
+  .col-6 li {
+    font-size: 1rem;
+  }
+}
