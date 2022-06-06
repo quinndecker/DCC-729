@@ -52,6 +52,54 @@
         /></noscript>
     
     <!-- End Meta Pixel Code -->
+    <!--Schema-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Decker's Carpet Cleaning",
+          "image": "",
+          "@id": "",
+          "url": "https://www.deckerscarpetcleaning.com/",
+          "telephone": "281-973-0281",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1701 Northpark Dr Ste 14",
+            "addressLocality": "Kingwood",
+            "postalCode": "77339",
+            "addressCountry": "US",
+            "addressRegion": "TX"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "08:00",
+              "closes": "20:00"
+            }
+          ]
+        }
+        </script>
+        <!--End Schema-->
 </head>
 {% load static %}
 
@@ -162,7 +210,7 @@
                 <div class="col col-4">
                     <h4>The Dirt on Decker's Carpet Cleaning:</h4>
                     <ul class="foot-dirt-list">
-                        <!--<li class="foot-dirt-li"><a href="/pricing/" class="foot-dirt-a">Pricing</a></li>-->
+                        <li class="foot-dirt-li"><a href="/pricing/" class="foot-dirt-a">Pricing</a></li>
                         <li class="foot-dirt-li"><a href="/why-choose-us/#reviews" class="foot-dirt-a">Reviews</a></li>
                         <li class="foot-serv-li"> <a href="/why-choose-us/#guarantee" class="foot-serv-a">Our
                             Guarantee</a></li>
@@ -203,10 +251,10 @@
                         </li>
                     </ul>
                     <h4>Office Hours:</h4>
-                    <p><time itemprop="openingHours" datetime="Mo-Fri 08:00-17:00">Mon - Fri 8:00 am to 5:00 pm</time>
+                    <p>Mon - Fri 8:00 am to 5:00 pm
                     </p>
                     <h4>Hours of Operation:</h4>
-                    <p><time itemprop="openingHours" datetime="Mo-Fri 08:00-20:00">Mon - Sat 8:00 am to 8:00 pm</time>
+                    <p>Mon - Sat 8:00 am to 8:00 pm
                     </p>
                     <ul class="foot-socials">
                         <li class="soclinks"><a href="https://www.facebook.com/DeckersCarpetCleaningKingwood"
