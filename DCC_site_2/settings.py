@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'imagekit',
-    'compressor',
 ]
 
 SITE_ID =1
