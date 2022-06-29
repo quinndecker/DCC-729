@@ -924,13 +924,38 @@ footer {
 .announcement-button:hover {
   color: black;
 }
-@media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1280px) {
   html,
   body {
     overflow-x: hidden;
   }
   body {
     position: relative;
+  }
+  .announcement {
+    padding-bottom: 0.5rem;
+  }
+  .announcement-text {
+    padding-left: 0;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .announcement-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .van {
+    margin-top: 6rem;
+  }
+  .service-page-banner {
+    margin-top: 9rem;
+  }
+  .content-wrap {
+    margin-top: 5rem;
   }
   .col-media-4 {
     width: 100%;
@@ -956,12 +981,32 @@ footer {
   .logo {
     display: none;
   }
+
+  .announcement-text {
+    padding-left: 0;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .announcement-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .announcement-spacer {
+    display: none;
+  }
   .mobile-logo {
     display: block;
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+  }
+  .content-wrap {
+    margin-top: 0rem;
   }
   .col-hd {
     display: none;
