@@ -7,10 +7,13 @@
     {% block meta %}
     {% endblock meta %}
     {% load static %}
+    {% load compress %}
+    {% compress css %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    {% endcompress %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&display=swap" rel="stylesheet">
@@ -20,7 +23,8 @@
     <link rel="manifest" href="{% static 'img/site.webmanifest' %}">
     <link rel="canonical" href="https://www.deckerscarpetcleaning.com/">
     <!-- Meta Pixel Code -->
-
+    {% load compress %}
+    {% compress js %}
     <script>
 
         !function(f,b,e,v,n,t,s)
@@ -100,6 +104,7 @@
         }
         </script>
         <!--End Schema-->
+    {% endcompress %}
 </head>
 {% load static %}
 
