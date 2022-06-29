@@ -30,7 +30,7 @@ body h2 {
 }
 .van {
   background-image: url("/static/img/Deckers-Carpet-Cleaning-Vans-2.png");
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
   max-width: 100%;
   background-size: cover;
   background-position: center center;
@@ -894,6 +894,35 @@ footer {
 }
 .price-card.popular .features .list a {
   color: white;
+}
+.whitetextcenter {
+  color: #eef2f8;
+  display: flex;
+  justify-content: center;
+}
+.announcement {
+  background-color: #293f90;
+  width: 100%;
+}
+.announcement-text {
+  padding-top: 1rem;
+  color: #eef2f8;
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 5rem;
+}
+.announcement-button {
+  background-color: #d82730;
+  padding: 0.1rem 0.75rem;
+  border-radius: 5px;
+  color: #eef2f8;
+  border: 1.5px solid black;
+  text-align: center;
+  margin-left: 0.5rem;
+  display: inline-flex;
+}
+.announcement-button:hover {
+  color: black;
 }
 @media only screen and (max-width: 1147px) {
   html,
