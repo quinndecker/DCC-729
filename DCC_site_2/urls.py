@@ -32,7 +32,7 @@ sitemaps = {
 
 
 urlpatterns = [
-    path('', include('Deckers_Carpet_Cleaning_Site.urls')),
+    path('', include('Deckers_Carpet_Cleaning_Site.urls', namespace='deckersite')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
     path('<slug:slug>/', blog_views.Post, name='post'),
     path('robots.txt', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),

@@ -14,14 +14,14 @@
     {% for post in post_list %}
     <div class="blog-post-list">
       <!--<div class="cover-image"><img src="{{ post.thumb.url }}" alt="{{ post.cover_image_alt }}"></div>-->
-      <a href="{% url 'post_detail' post.slug  %}">
+      <a href="{% url 'deckersite:post_detail' post.slug  %}">
         <h2 class="blog-titles">{{ post.title }}</h2>
       </a>
       <p class="blog-preview text-black-50 h6">
         {{ post.author }} | {{ post.created_on}}
       </p>
       <p class="card-text">{{post.content|slice:":250"|striptags }}...</p>
-      <a href="{% url 'post_detail' post.slug  %}" class="read-more"
+      <a href="{% url 'deckersite:post_detail' post.slug  %}" class="read-more"
         >Read More &rarr;</a
       >
     </div>

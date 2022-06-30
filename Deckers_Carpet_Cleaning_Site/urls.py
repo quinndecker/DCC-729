@@ -1,7 +1,9 @@
 from django.urls import path
-from . import views
+from . import views, redirectviews
 from django.contrib import admin
 admin.autodiscover()
+
+app_name='deckersite'
 
 urlpatterns = [
     path('', views.homepage, name='homepage'),	
@@ -78,6 +80,26 @@ urlpatterns = [
     path('about-us/', views.whychooseus, name='whychooseus2'),
     path('contact/', views.booknow, name='booknow2'),
     path('carpet-stretching-and-repair/', views.repairmain, name='repairmain2'),
+
+    ## REDIRECTS FOR BACKLINKS ##
+    path('wp-content/uploads/2020/08/Van-Cover-photo-2.jpg', redirectviews.redirect_to_home),
+    path('wp-content/uploads/2016/05/blue-ray-background.png', redirectviews.redirect_to_home),
+    path('what-to-expect-when-we-clean-your-carpets/', redirectviews.redirect_to_about),
+    path('what-to-do-after-your-carpet-cleaning-service/', redirectviews.redirect_3),
+    path('wp-content/uploads/2016/07/carpet18.png', redirectviews.redirect_to_carpet_cleaning),
+    path('about/findout/', redirectviews.redirect_to_about),
+    path('services/tile-grout-stone-cleaning-kingwood/', redirectviews.redirect_to_tile),
+    path('services/pet-stain-odor-treatment/', redirectviews.redirect_to_pets),
+    path('pet-odor-and-stain-removal/', redirectviews.redirect_to_pets),
+    path('category/your-appointment-with-deckers/', redirectviews.redirect_to_booking),
+    path('shop/', redirectviews.redirect_to_booking),
+    path('category/it-matters-who-cleans/', redirectviews.redirect_to_about),
+    path('category/pet-stains-and-odor/', redirectviews.redirect_to_pets),
+    path('wp-content/uploads/2016/06/logo.png', redirectviews.redirect_to_home),
+    path('wp-content/uploads/2016/07/carpetcar9.jpg', redirectviews.redirect_to_home),
+    path('areas-we-serve/', redirectviews.redirect_to_areas),
+    path('category/uncategorized/', redirectviews.redirect_to_home),
+
 
 
     ## THIS HAS TO BE LAST##
