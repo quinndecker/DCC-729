@@ -25,8 +25,6 @@ from Deckers_Carpet_Cleaning_Site import views as blog_views
 
 from django.views.generic.base import TemplateView
 
-app_name = "Deckers_Carpet_Cleaning_Site"
-
 sitemaps = {
     'posts': PostSitemap,
     'static': StaticViewSitemap,
@@ -35,7 +33,7 @@ sitemaps = {
 
 urlpatterns = [
     path('', include('Deckers_Carpet_Cleaning_Site.urls', namespace='deckersite')),
-    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
+    path('sitemap.xml/', sitemap, {'sitemaps': sitemaps}),
     path('<slug:slug>/', blog_views.Post, name='post'),
     path('robots.txt', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
 
