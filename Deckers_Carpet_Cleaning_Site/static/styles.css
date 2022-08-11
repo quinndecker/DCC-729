@@ -279,7 +279,6 @@ h1 {
 }
 .servicetext a {
   color: #eef2f8;
-  text-decoration: underline;
 }
 .whitebreaker {
   height: 0.1rem;
@@ -529,16 +528,15 @@ footer {
   padding: 2.5rem;
   list-style: square;
 }
+.wcu-headers {
+  color: #eef2f8;
+}
 .values {
   padding-top: 3.5rem;
   /*width: 90%;*/
   margin: 0 auto;
 }
 .values span {
-  text-decoration: underline;
-}
-.values h2 {
-  color: #eef2f8;
   text-decoration: underline;
 }
 .list {
@@ -567,17 +565,8 @@ footer {
 .whitetext {
   color: #eef2f8;
 }
-
-.guarantee h2 {
-  color: #eef2f8;
-  text-decoration: underline;
-}
 .history {
   margin: 0 auto;
-}
-.history h2 {
-  color: #eef2f8;
-  text-decoration: underline;
 }
 .two-buttons {
   display: inline-block;

@@ -30,7 +30,7 @@ body h2 {
 }
 .van {
   background-image: url("/static/img/Deckers-Carpet-Cleaning-Vans-2.png");
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
   max-width: 100%;
   background-size: cover;
   background-position: center center;
@@ -895,13 +895,67 @@ footer {
 .price-card.popular .features .list a {
   color: white;
 }
-@media only screen and (max-width: 1147px) {
+.whitetextcenter {
+  color: #eef2f8;
+  display: flex;
+  justify-content: center;
+}
+.announcement {
+  background-color: #293f90;
+  width: 100%;
+}
+.announcement-text {
+  padding-top: 1rem;
+  color: #eef2f8;
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 5rem;
+}
+.announcement-button {
+  background-color: #d82730;
+  padding: 0.1rem 0.75rem;
+  border-radius: 5px;
+  color: #eef2f8;
+  border: 1.5px solid black;
+  text-align: center;
+  margin-left: 0.5rem;
+  display: inline-flex;
+}
+.announcement-button:hover {
+  color: black;
+}
+@media only screen and (max-width: 1280px) {
   html,
   body {
     overflow-x: hidden;
   }
   body {
     position: relative;
+  }
+  .announcement {
+    padding-bottom: 0.5rem;
+  }
+  .announcement-text {
+    padding-left: 0;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .announcement-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .van {
+    margin-top: 6rem;
+  }
+  .service-page-banner {
+    margin-top: 9rem;
+  }
+  .content-wrap {
+    margin-top: 5rem;
   }
   .col-media-4 {
     width: 100%;
@@ -927,12 +981,31 @@ footer {
   .logo {
     display: none;
   }
+  .announcement-text {
+    padding-left: 0;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .announcement-button {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .announcement-spacer {
+    display: none;
+  }
   .mobile-logo {
     display: block;
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+  }
+  .content-wrap {
+    margin-top: 0rem;
   }
   .col-hd {
     display: none;

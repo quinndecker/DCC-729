@@ -25,6 +25,8 @@ from Deckers_Carpet_Cleaning_Site import views as blog_views
 
 from django.views.generic.base import TemplateView
 
+app_name = "Deckers_Carpet_Cleaning_Site"
+
 sitemaps = {
     'posts': PostSitemap,
     'static': StaticViewSitemap,
