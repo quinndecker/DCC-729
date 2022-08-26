@@ -29,7 +29,7 @@ body h2 {
   flex-basis: auto;
 }
 .van {
-  background-image: url("/static/img/Deckers-Carpet-Cleaning-Vans-2.png");
+  background-image: url("/static/img/Deckers-Carpet-Cleaning-Vans-2.0c2312f35a67.png");
   /*margin-top: 0.5rem;*/
   max-width: 100%;
   background-size: cover;
@@ -604,27 +604,27 @@ footer {
   text-shadow: 0 0 10px black, 0 0 13px black;
 }
 #carpet-banner {
-  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.e80dd090c8ea.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 #repair-banner {
-  background-image: url("/static/img/Carpet-Cleaning-Banner-1.jpg");
+  background-image: url("/static/img/Carpet-Cleaning-Banner-1.e80dd090c8ea.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 #tile-banner {
-  background-image: url("/static/img/Clean-Tile.jpg");
+  background-image: url("/static/img/Clean-Tile.16f083322137.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 #upholstery-banner {
-  background-image: url("/static/img/Clean-Upholstery.jpg");
+  background-image: url("/static/img/Clean-Upholstery.4d20a7abfa11.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 #stone-banner {
-  background-image: url("/static/img/Clean-Stone.jpg");
+  background-image: url("/static/img/Clean-Stone.da5d5a5b6256.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1251,8 +1251,6 @@ footer {
   }
   .foot-socials {
     margin-left: -1rem;
-  }
-  .foot-socials-reviews {
     flex-direction: column;
   }
   .foot-socials-elf {

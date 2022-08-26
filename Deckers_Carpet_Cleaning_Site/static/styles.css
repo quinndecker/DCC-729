@@ -1252,6 +1252,9 @@ footer {
   .foot-socials {
     margin-left: -1rem;
   }
+  .foot-socials-reviews {
+    flex-direction: column;
+  }
   .foot-socials-elf {
     flex-direction: column;
   }
