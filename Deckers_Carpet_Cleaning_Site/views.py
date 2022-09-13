@@ -145,4 +145,6 @@ def thewoodlandscitypage(request):
     return render(request, 'city-pages/the-woodlands-tx-carpet-cleaning.html')
 def atascocitacitypage(request):
     return render(request, 'city-pages/atascocita-tx-carpet-cleaning.html')
+def kingwoodcitypage(request):
+    return render(request, 'city-pages/kingwood-tx-carpet-cleaning.html')
 

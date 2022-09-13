@@ -74,6 +74,7 @@ urlpatterns = [
     ## City Pages ##
     path('the-woodlands-tx-carpet-cleaning/', views.thewoodlandscitypage, name='thewoodlandscitypage'),
     path('atascocita-tx-carpet-cleaning/', views.atascocitacitypage, name='atascocitacitypage'),
+    path('kingwood-tx-carpet-cleaning/', views.kingwoodcitypage, name='kingwoodcitypage'),
 
     ## DUPES ##
     path('stone-floor-and-countertop-care/', views.stonemain , name='stonemain2'),
