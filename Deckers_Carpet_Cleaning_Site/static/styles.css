@@ -889,7 +889,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.announcement {
+/*.announcement {
   background-color: #293f90;
   width: 100%;
 }
@@ -912,7 +912,7 @@ footer {
 }
 .announcement-button:hover {
   color: black;
-}
+}*/
 @media only screen and (max-width: 1280px) {
   html,
   body {
@@ -921,7 +921,7 @@ footer {
   body {
     position: relative;
   }
-  .announcement {
+  /*.announcement {
     padding-bottom: 0.5rem;
   }
   .announcement-text {
@@ -936,7 +936,7 @@ footer {
     justify-content: center;
     padding: 0.5rem;
     margin: 1rem 1.5rem 1rem 1.5rem;
-  }
+  }*/
   .van {
     margin-top: 6rem;
   }
@@ -970,7 +970,7 @@ footer {
   .logo {
     display: none;
   }
-  .announcement-text {
+  /*.announcement-text {
     padding-left: 0;
     max-width: 90%;
     text-align: center;
@@ -985,7 +985,7 @@ footer {
   }
   .announcement-spacer {
     display: none;
-  }
+  }*/
   .mobile-logo {
     display: block;
     width: 10rem;
