@@ -26,7 +26,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost','127.0.0.1', 'deckers-carpet-cleaning-test-3.herokuapp.com', 'www.deckerscarpetcleaning.com', 'deckerscarpetcleaning.com']
 
